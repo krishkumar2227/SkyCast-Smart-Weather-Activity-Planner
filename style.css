@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;
+}
+
+.app-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px; border-radius: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    width: 350px; text-align: center; color: white;
+}
+
+input {
+    padding: 10px; border-radius: 10px; border: none; outline: none; width: 70%;
+}
+
+button {
+    padding: 10px; border-radius: 10px; border: none; background: #fff; cursor: pointer; font-weight: bold;
+}
+
+.recommendation-card {
+    background: white; color: #333; padding: 15px; border-radius: 15px; margin-top: 20px;
+}
